@@ -19,3 +19,10 @@
 -cd apitestingit
 -mvn clean test -Dtoken=<YOURTOKEN>
 ```
+
+## Travis CI
+```
+- The project "codepractice" it's integrated with TravisCI.
+	- Link(https://travis-ci.com/diogocleite/hwchallenge)
+```
+
