@@ -8,9 +8,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Homepage {
 
-    public static void load(WebDriver driver, WebDriverWait wait){
+    public static void load(WebDriver driver, WebDriverWait wait, String city){
         WebElement elementSearch = driver.findElement(By.id("home-search-keywords"));
-        elementSearch.sendKeys("port");
+        elementSearch.sendKeys(city);
 
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"top-search\"]/div[1]/div/div[2]/ul/li[2]")));
 

@@ -19,6 +19,7 @@ import static org.junit.Assert.*;
 public class WebHWTests {
 
     private static WebDriver driver;
+    private static String CITY = "porto";
 
     @BeforeClass
     public static void beginTests() {
@@ -43,7 +44,7 @@ public class WebHWTests {
         WebDriverWait wait = new WebDriverWait(driver, 2000);
 
         //search for city porto
-        Homepage.load(driver,wait);
+        Homepage.load(driver,wait,CITY);
 
         //wait for the results
         SearchResultPage.waitForLoad(wait);
