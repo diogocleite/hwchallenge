@@ -17,5 +17,6 @@
 ## APITesting
 ```
 -cd apitestingit
--mvn clean test -Dtoken=<YOURTOKEN>
+-mvn clean test
+Note: To add your user and token go to file: apitestingit/src/test/java/gist/GistInteface.java
 ```
