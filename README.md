@@ -23,6 +23,6 @@
 ## Travis CI
 ```
 - The project "codepractice" it's integrated with TravisCI.
-	- Link(https://travis-ci.com/diogocleite/hwchallenge)
+	- [TravisCI Project](https://travis-ci.com/diogocleite/hwchallenge)
 ```
 
